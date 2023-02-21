@@ -1,0 +1,83 @@
+body{
+    background-image: url(images/backgroundliteblue.jpg);  
+}
+  .box {
+    width: 350px; 
+    margin:auto;
+    padding: 50px;
+    background: white;
+    border-radius: 10px; 
+    display: block;
+    margin : auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  h1.box-logo a {
+    text-decoration:none;
+  }
+  h1.box-title {
+    color: #AEAEAE;
+    background: #f8f8f8;
+    font-weight: 300;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align:center;
+    margin: -27px -26px 26px;
+  }
+  .box-button {
+    border-radius: 5px;
+    background: #AEAEAE;
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+    width: 100%;
+    height: 51px;
+    padding: 0;
+    color: #fff;
+    border: 0;
+    outline:0;
+  }
+  .box-register
+  {
+    text-align:center;
+    margin-bottom:0px;
+  }
+  .box-register a
+  {
+    text-decoration:none;
+    font-size:12px;
+    color:#666;
+  }
+  .box-input {
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left:10px;
+    border-radius: 5px;
+    width: 347px;
+    height: 50px;
+  }
+  .box-input:focus {
+      outline: none;
+      border-color:#5c7186;
+  }
+  .sucess{
+    text-align: center;
+    color: white;
+  }
+  .sucess a {
+    text-decoration: none;
+    color: #58aef7;
+  }
+  p.errorMessage {
+      background-color: darkseagreen;
+      border: darkseagreen 1px solid;
+      padding: 5px 10px;
+      color: #FFFFFF;
+      border-radius: 3px;
+  }

@@ -1,0 +1,66 @@
+body{
+    background-image: url(images/ess3.jpg);  
+}
+.box{  
+        
+        width: 300px; 
+        margin:auto;
+        padding: 50px;
+        background: white;
+        border-radius: 10px; 
+        display: block;
+        margin : auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);       
+}
+h1{  
+    text-align: center;  
+    color:green;
+    padding: 10px; 
+    font-family: 'Arial';
+    font-size: larger; 
+}  
+label{  
+    color: green;  
+    font-size: 17px;
+    
+}  
+.box-input{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;
+    background-color: rgb(229, 232, 236);
+}
+.box-input:focus {
+    outline: none;
+    border:green 1px solid;
+}
+.username{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    background-size: 15px; 
+    padding-left: 27px; 
+}
+
+.box-button{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    background-color: green;   
+    color: white;  
+    display: block;
+    margin : auto;
+}  
+
+.material-symbols-outlined{
+    color: green;
+    position: absolute; /* postulat de départ */
+    top: 15%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); 
+}

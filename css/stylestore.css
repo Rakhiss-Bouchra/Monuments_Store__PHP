@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&family=Poppins:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+:root{
+    --bg-color: green;
+}
+body{
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    background-color: white;
+}
+.sidebar{
+    width: 85px;
+    background-color: var(--bg-color);
+    height: 100vh;
+    position: fixed;
+}
+.sidebar.active{
+    width:240px;
+}
+.logo_content{
+    height:67px;
+    background-color: var(--bg-color);
+}
+.logo_content .logo{
+
+    color: antiquewhite;
+    display:none;
+    background-color: var(--bg-color);
+    padding: 20px;
+
+}
+.logo_content .btn-toggle{
+    position: absolute;
+    color: antiquewhite;
+    right:17px;
+    top:7px;
+    font-size: 26px;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.sidebar ul{
+    padding:20px;
+}
+.sidebar ul li{
+    list-style:none;
+
+}
+.sidebar ul li a{
+    color:antiquewhite;
+    text-decoration:none;
+    display:flex;
+    font-size: 20px;
+    align-items:center;
+    padding:10px;
+}
+.sidebar ul li a:hover{
+    background-color: grey;
+    border-radius:5px;
+}
+.sidebar ul li a i {
+    padding-right:25px;
+    font: size 24px;
+
+}
+.sidebar ul li a span{
+    display: none;
+}
+.sidebar.active ul li a span{
+    display: block;
+}
+main {
+    padding-left: 90px;
+}
+.head{
+    margin-left:120px;
+}
+.wrapper{
+    position: relative;
+    left:85px;
+    width:calc(100% - 85px);
+    background-color: rgb(233,233,233);
+    padding:20px;
+}
+.box-add {
+    display: inline-block;
+    color: black;
+    width: 370px;
+    height: 300px;
+    background-color: green;
+    text-align: center;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 15px 0px green;
+    position: relative;
+}
+.box-add #add-image{
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+button {
+    padding: 0.5em 2em;
+    background-color: green;
+    color: black;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.box-moments {
+    display: inline-block;
+    font-size: large;
+    color: black;
+    width: 370px;
+    height: 300px;
+    min-width: 300px;
+    text-align: center;
+    margin: 1em 0 0 1em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 15px 0px green;
+    position: relative;
+}
+
+
+
+.box-moments .info1 {
+    position: absolute;
+}
+
+
+input {
+    font-size: large;
+    display: block;
+    margin: 1.5em auto;
+    border: none;
+    border-bottom: 1px solid green;
+}
+
+
+.titre {
+    position: absolute;
+    top: 0;
+    left: 0.75em;
+}
+.location {
+    position: absolute;
+    top: 2em;
+    left: 0.75em;
+}
+
+.description {
+    position: absolute;
+    top: 6em;
+    left: 0.75em;
+}
+
+.prix {
+    position: absolute;
+    top: 13em;
+    left: 0.75em;
+}
+
+.copies {
+    position: absolute;
+    top: 13em;
+    left: 8.5em;
+}
+
+.image {
+    position: absolute;
+    
+    top: 11em;
+    left: 0.75em;
+}
+
+.prix-input {
+    background: none;
+    border: none;
+    width: 130px;
+}
+
+.copies-input {
+    background: none;
+    border: none;
+    width: 130px;
+}
+
+.titre-input , .location-input, textarea {
+    resize: none;
+    background: none;
+    color: black;
+    border: none;
+    width: 260px;
+}
+
+.titre-input::placeholder , .location-input::placeholder, .prix-input::placeholder, .copies-input::placeholder {
+    color: black;
+}
+
+
+.titre-add {
+    position: absolute;
+    top: 0;
+    left: 0.75em;
+}
+.location-add {
+    position: absolute;
+    top: 2em;
+    left: 0.75em;
+}
+
+.description-add {
+    position: absolute;
+    top: 6em;
+    left: 0.75em;
+}
+
+.prix-add {
+    position: absolute;
+    top: 14.5em;
+    left: 0.75em;
+}
+
+.copies-add {
+    position: absolute;
+    top: 14.5em;
+    left: 8.5em;
+}
+
+.image-add {
+    position: absolute;
+    top: 12em;
+    left: 0.75em;
+}
+
+.prix-input-add {
+    background: none;
+    border: none;
+    width: 130px;
+}
+
+.copies-input-add {
+    background: none;
+    border: none;
+    width: 130px;
+}
+
+.titre-input-add , .location-input-add, textarea {
+    resize: none;
+    background: none;
+    color: black;
+    border: none;
+    width: 260px;
+}
+.image-input-add{
+    width: 154px;
+}
+
+.titre-input-add::placeholder , .location-input-add::placeholder, .prix-input-add::placeholder, .copies-input-add::placeholder {
+    color: black;
+}
+
+#create-form {
+    display: none;
+}
